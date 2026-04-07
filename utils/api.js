@@ -2,7 +2,7 @@ import axios from 'axios';
 import * as SecureStore from 'expo-secure-store';
 
 // ── Change this to your Render backend URL in production ──────────────────────
-export const BASE_URL = import.meta.env.VITE_API_URL ||'http://192.168.1.100:5000'; // dev: your local IP
+export const BASE_URL = 'https://salon-backend-v98o.onrender.com'; // dev: your local IP
 // export const BASE_URL = 'https://your-salon-backend.onrender.com'; // production
 
 const api = axios.create({
